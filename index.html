@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="author" content="mowo"/>
+    <title>Timer</title>
+	<link rel="stylesheet" href="css/index.css" type="text/css" />
+</head>
+<body onselectstart="return false;" oncontextmenu="return false;">
+	<div class="div_body" id="div_body">
+		<iframe src="html/type1.html" name="ifr_type" id="ifr_type">
+		</iframe>
+		<div class="div_btn">
+			<button id="btn_start" onclick="start_click()">开 始</button>
+			<button id="btn_time" class="btn_time_disable" onclick="get_time_click()" disabled="disabled">截 取</button><br/>
+			<button id="btn_reset" class="btn_reset" onclick="reset_click()">重 置</button>
+		</div>
+		<div class="div_la" id="div_la">
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/other/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="js/other/NoSleep.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
